@@ -1,6 +1,8 @@
 time-stamps
 ===========
 
+[![Coverage Status](https://coveralls.io/repos/github/julianjensen/time-stamps/badge.png?branch=master)](https://coveralls.io/github/julianjensen/time-stamps?branch=master)
+
 This module converts a variety of timestamp formats to a standard JavaScript `Date` object. It accepts, as input, the
 formats listed below. It exports its functions in both camelCase and snake case formats. In other words, it would
  have both `unixToDate()` and `unix_to_date()` available pointing to the same function, for example.
