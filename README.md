@@ -1,7 +1,7 @@
 time-stamps
 ===========
 
-[![Coverage Status](https://coveralls.io/repos/github/julianjensen/time-stamps/badge.png?branch=master)](https://coveralls.io/github/julianjensen/time-stamps?branch=master)
+[![Coveralls Status][coveralls-image]][coveralls-url] [![Build Status][travis-image]][travis-url]
 
 This module converts a variety of timestamp formats to a standard JavaScript `Date` object. It accepts, as input, the
 formats listed below. It exports its functions in both camelCase and snake case formats. In other words, it would
@@ -86,3 +86,9 @@ let tsa = ts.js_to_date( someTimestamp ),
 
 assert( String( tsa ) === String( tsb ) );
 ```
+
+[coveralls-image]: https://coveralls.io/repos/github/julianjensen/time-stamps/badge.svg?branch=master
+[coveralls-url]: https://coveralls.io/github/julianjensen/time-stamps?branch=master
+
+[travis-url]: https://travis-ci.org/julianjensen/time-stamps
+[travis-image]: http://img.shields.io/travis/julianjensen/time-stamps.svg
