@@ -1,0 +1,36 @@
+{
+    "name": "time-stamps",
+    "version": "1.0.0",
+    "description": "Converts a large variety of timestamp formats to a JavaScript Date object.",
+    "main": "index.js",
+    "scripts": {
+        "test": "istanbul cover node_modules/mocha/bin/_mocha -- ./test/",
+        "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+    },
+    "author": {
+        "name": "Julian Jensen",
+        "email": "jjdanois@gmail.com"
+    },
+    "keywords": [
+        "timestamp",
+        "filetime",
+        "epoch",
+        "ntp",
+        "hfs",
+        "ldap",
+        "ole",
+        "dos",
+        "convert",
+        "time"
+    ],
+    "repository": "https://github.com/julianjensen/time-stamps.git",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "chai": "^4.0.2",
+        "coveralls": "^2.13.1",
+        "istanbul": "^0.4.5",
+        "mocha": "^3.4.2",
+        "mocha-lcov-reporter": "^1.3.0"
+    }
+}
