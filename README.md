@@ -1,7 +1,7 @@
 time-stamps
 ===========
 
-[![Coveralls Status][coveralls-image]][coveralls-url] [![Build Status][travis-image]][travis-url]
+[![Coveralls Status][coveralls-image]][coveralls-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][depstat-image]][depstat-url]
 
 This module converts a variety of timestamp formats to a standard JavaScript `Date` object. It accepts, as input, the
 formats listed below. It exports its functions in both camelCase and snake case formats. In other words, it would
@@ -92,3 +92,6 @@ assert( String( tsa ) === String( tsb ) );
 
 [travis-url]: https://travis-ci.org/julianjensen/time-stamps
 [travis-image]: http://img.shields.io/travis/julianjensen/time-stamps.svg
+
+[depstat-url]: https://gemnasium.com/github.com/julianjensen/time-stamps
+[depstat-image]: https://gemnasium.com/badges/github.com/julianjensen/time-stamps.svg
