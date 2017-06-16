@@ -99,6 +99,5 @@ assert( String( tsa ) === String( tsb ) );
 [npm-url]: https://badge.fury.io/js/time-stamps
 [npm-image]: https://badge.fury.io/js/time-stamps.svg
 
-
-[license-url]: https://github.com/julianjensen/time-stamps/master/LICENSE
+[license-url]: https://github.com/julianjensen/time-stamps/blob/master/LICENSE
 [license-image]: https://img.shields.io/badge/license-MIT-brightgreen.svg
