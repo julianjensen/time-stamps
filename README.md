@@ -1,7 +1,7 @@
 time-stamps
 ===========
 
-[![Coveralls Status][coveralls-image]][coveralls-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][depstat-image]][depstat-url]
+[![Coveralls Status][coveralls-image]][coveralls-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][depstat-image]][depstat-url] [![npm version][npm-image]][npm-url]
 
 This module converts a variety of timestamp formats to a standard JavaScript `Date` object. It accepts, as input, the
 formats listed below. It exports its functions in both camelCase and snake case formats. In other words, it would
@@ -95,3 +95,7 @@ assert( String( tsa ) === String( tsb ) );
 
 [depstat-url]: https://gemnasium.com/github.com/julianjensen/time-stamps
 [depstat-image]: https://gemnasium.com/badges/github.com/julianjensen/time-stamps.svg
+
+[npm-url]: https://badge.fury.io/js/time-stamps
+[npm-image]: https://badge.fury.io/js/time-stamps.svg
+
