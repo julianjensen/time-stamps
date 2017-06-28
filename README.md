@@ -2,7 +2,9 @@ time-stamps
 ===========
 
 [![Coveralls Status][coveralls-image]][coveralls-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][depstat-image]][depstat-url] [![npm version][npm-image]][npm-url]  [![License][license-image]][license-url] [![Known Vulnerabilities][snyk-image]][snyk-url]
-[![Codacy Badge][codacy-url]][codacy-image]
+[![Codacy Badge][codacy-image]][codacy-url]
+[![david-dm][david-dm-image]][david-dm-url]
+[![bitHound Code][bithound-image]][bithound-url]
 
 This module converts a variety of timestamp formats to a standard JavaScript `Date` object. It accepts, as input, the
 formats listed below. It exports its functions in both camelCase and snake case formats. In other words, it would
@@ -106,8 +108,11 @@ assert( String( tsa ) === String( tsb ) );
 [snyk-url]: https://snyk.io/test/github/julianjensen/time-stamps
 [snyk-image]: https://snyk.io/test/github/julianjensen/time-stamps/badge.svg
 
-[codacy-url]: https://api.codacy.com/project/badge/Grade/2f7a4653c6f64569baa946125494e26a
-[codacy-image]: https://www.codacy.com/app/julianjensen/time-stamps?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=julianjensen/time-stamps&amp;utm_campaign=Badge_Grade
+[codacy-url]: https://www.codacy.com/app/julianjensen/time-stamps?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=julianjensen/time-stamps&amp;utm_campaign=Badge_Grade
+[codacy-image]: https://api.codacy.com/project/badge/Grade/2f7a4653c6f64569baa946125494e26a
 
+[david-dm-image]: https://david-dm.org/julianjensen/time-stamps.svg
+[david-dm-url]: https://david-dm.org/julianjensen/time-stamps
 
-
+[bithound-image]: https://www.bithound.io/github/julianjensen/time-stamps/badges/code.svg
+[bithound-url]: https://www.bithound.io/github/julianjensen/time-stamps
