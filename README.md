@@ -6,6 +6,7 @@ time-stamps
 [![david-dm][david-dm-image]][david-dm-url]
 [![bitHound Code][bithound-image]][bithound-url]
 [![Code Climate][codeclimate-image]][codeclimate-url]
+[![Codebeat Badge][codebeat-image]][codebeat-url]
 
 This module converts a variety of timestamp formats to a standard JavaScript `Date` object. It accepts, as input, the
 formats listed below. It exports its functions in both camelCase and snake case formats. In other words, it would
@@ -120,3 +121,6 @@ assert( String( tsa ) === String( tsb ) );
 
 [codeclimate-image]: https://codeclimate.com/github/julianjensen/time-stamps/badges/gpa.svg
 [codeclimate-url]: https://codeclimate.com/github/julianjensen/time-stamps
+
+[codebeat-image]: https://codebeat.co/badges/5a758e5f-05fb-42c9-93e4-83f3709db178
+[codebeat-url]: https://codebeat.co/projects/github-com-julianjensen-time-stamps-master
